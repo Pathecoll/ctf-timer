@@ -32,3 +32,9 @@ it, keeping only the characters the timer draws:
 ```sh
 node scripts/make-font.mjs fonts/ChakraPetch-Bold.ttf public/fonts/chakra-petch-bold.typeface.json
 ```
+
+## GitHub Pages
+
+`.github/workflows/pages.yml` builds and publishes the timer on every push to `main`.
+Once, in the repo on GitHub: **Settings → Pages → Build and deployment → Source:
+GitHub Actions**. The site is then at `https://<owner>.github.io/<repo>/`.
